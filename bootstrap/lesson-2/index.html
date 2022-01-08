@@ -9,19 +9,60 @@
 <body>
   <!-- basic buttons -->
   <h2>Buttons</h2>
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+
+  <button type="button" class="btn btn-link">Link</button>
 
   <!-- anchor tags as buttons -->
+  <a href="#" class="btn btn-primary">Link Primary Button</a>
+
+  <!-- Input as a button -->
+  <input type="button" value="Input" class="btn btn-primary">
 
   <!-- button sizes -->
   <h2>Button sizes</h2>
-
+  <button class="btn btn-primary btn-lg">Primary Large</button>
+  <button class="btn btn-primary btn-sm">Primary Small</button>
 
   <!-- outlined styles -->
   <h2>Button Styles</h2>
-
+  <button class="btn btn-outline-primary">Outline Primary</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
 
   <!-- button groups -->
   <h2>Button Groups</h2>
+  <div class="btn-group">
+    <button class="btn btn-primary">Button Left</button>
+    <button class="btn btn-primary">Button Center</button>
+    <button class="btn btn-primary">Button Right</button>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-outline-warning">Left</button>
+    <button class="btn btn-outline-warning">Center</button>
+    <button class="btn btn-outline-warning">Right</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+  
+    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+  
+    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+  </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">1</button>
+    <button type="button" class="btn btn-primary">2</button>
+    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+      <li><a href="#" class="dropdown-item">Option 1</a></li>
+      <li><a href="#" class="dropdown-item">Option 2</a></li>
+    </ul>
+  </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
